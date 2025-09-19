@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="img/fevicon.png"/>
+</head>
+<body>
+    <div id="page-1" class="">
+      <div class="container">
+          <div class=" overlay-box">
+              <div><i class="ri-sparkling-line"></i></div>
+              <div class="slideUp-box">
+                <h4>Happy Birthday Baby...💕</h4>
+                <h4>It's your special day!</h4>
+                <h4>So, I had to make something special for you couse you're special to me yk.</h4>
+                <h4>Do you wanna see what i make? </h4>
+                <h4><a class="btn" onclick="showPage2()">Yes!</a> <a class="btn .not-allowed">No</a></h4>
+              </div>
+          </div>
+      </div>
+    </div><!----page1---->
+
+    <div id="page-2" class="hide"><!---page2--->
+      <div class="page2-container">
+        <div class="top-lights-box">
+          <div class="top-light" style="background-color:red;"></div>
+          <div class="top-light" style="background-color:blue;"></div>
+          <div class="top-light" style="background-color:green;"></div>
+          <div class="top-light" style="background-color:yellow;"></div>
+          <div class="top-light" style="background-color:red;"></div>
+          <div class="top-light" style="background-color:Blue;"></div>
+          <div class="top-light" style="background-color:green;"></div>
+          <div class="top-light" style="background-color:yellow;"></div>
+        </div>
+
+        <div class="light-on">
+          <a class="page2-btn btn-purple" onclick="lightOn()">Lights On🕯️</a>
+          <a class="page2-btn btn-red hide" onclick="playMusic()">Play Music🎶</a>
+          <a class="page2-btn btn-red hide" onclick="decoration()">Decorate 🎊</a>
+          <a class="page2-btn btn-red hide" onclick="showBallons()">Fly The Ballons 🎈</a>
+          <a class="page2-btn btn-red hide" onclick="showCake()">Let's cut the cake🎂</a>
+          <a class="page2-btn btn-red hide" onclick="showMsg()">Here's some message for you mera baccha...💌</a>
+        </div>
+
+        <i class="ri-music-2-line music-icon hide"></i>
+
+        <div class="birthdayTag-box">
+          <img class="banner " src="img\—Pngtree—beautiful birthday banner_8361841.png" alt="banner">
+        </div>
+
+        <div class="cake-img">
+          <img src="img\—Pngtree—birthday cake_20139421.png" alt="cake Image">
+        </div>
+
+        <audio loop> <source src="music/birthday-music.mp3" type="audio/ogg" ></audio>
+      </div>
+    </div><!---page2--->
+    
+     <div id="page-3" class="hide">
+      <div class="container">
+          <div class="page3part1">
+            <div class="page3heading-box">
+              <h1 class="page3heading">Happiest Birthday to My Girl.</h1>
+            </div>
+            <div class="page3overlay">
+              <p>Wishing you a very happy birthday baby. Through this journey we've shared the most incredible moments together. Hover over each photo to see why these memories mean so much to me, Every moment we share together place a diifrent position in my heart in every sitution you helped me a lot and sticked with me always. Every moment with you is a treasure that i want to keep forever...</p>
+            </div>
+          </div>
+          <div class="page3Part2">
+            <div class="carousel">
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby21.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Baby in Pink Suit 1🩷</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby00.mp4" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Easy Access💁</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="img\baby19.jpg" alt="baby">
+                <div class="card-text">
+                  <h5>Proposal Day💝</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby1.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Kissi🥰</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                 <video autoplay loop muted>
+                     <source src="img\baby3.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Pretty Babyyy😩</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="img\baby26.jpg" alt="uss">
+                <div class="card-text">
+                  <h5>Baby in Pink Suit 2🩷</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                 <video autoplay loop muted>
+                     <source src="img\baby6.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Matching Matching</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby8.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Ballon🎈</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="img/baby23.jpg" alt="uss">
+                <div class="card-text">
+                  <h5>Mirror Selfi🐻‍❄️</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby12.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Our fav Place🤝</h5>
+                </div>
+              </div>
+              
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby10.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>With Tank Top🖤</h5>
+                </div>
+              </div>
+              
+              <div class="card">
+                <img src="img\baby25.jpg" alt="uss">
+                <div class="card-text">
+                  <h5>Soft Toys🧸</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby16.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Birthday with You🎀</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby17.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Cutieee🤌</h5>
+                </div> 
+              </div>
+
+              <div class="card">
+                <img src="img\baby5.jpg" alt="uss">
+                <div class="card-text">
+                  <h5>In Saree💅</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby0.mp4" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>First Date💑</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby28.mp4" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Blessings🫶</h5>
+                </div>
+              </div>
+          
+            </div>
+
+            <div class="carousel">
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby21.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Baby in Pink Suit 1🩷</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby00.mp4" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Easy Access💁</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="img\baby19.jpg" alt="baby">
+                <div class="card-text">
+                  <h5>Proposal Day💝</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby1.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Kissi🥰</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                 <video autoplay loop muted>
+                     <source src="img\baby3.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Pretty Babyyy😩</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="img\baby26.jpg" alt="uss">
+                <div class="card-text">
+                  <h5>Baby in Pink Suit 2🩷</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                 <video autoplay loop muted>
+                     <source src="img\baby6.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Matching Matching</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby8.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Ballon🎈</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="img/baby23.jpg" alt="uss">
+                <div class="card-text">
+                  <h5>Mirror Selfi🐻‍❄️</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby12.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Our fav Place🤝</h5>
+                </div>
+              </div>
+              
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby10.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>With Tank Top🖤</h5>
+                </div>
+              </div>
+              
+              <div class="card">
+                <img src="img\baby25.jpg" alt="uss">
+                <div class="card-text">
+                  <h5>Soft Toys🧸</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby16.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Birthday with You🎀</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby17.mov" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Cutieee🤌</h5>
+                </div> 
+              </div>
+
+              <div class="card">
+                <img src="img\baby5.jpg" alt="uss">
+                <div class="card-text">
+                  <h5>In Saree💅</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby0.mp4" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>First Date💑</h5>
+                </div>
+              </div>
+
+              <div class="card">
+                <video autoplay loop muted>
+                     <source src="img\baby28.mp4" type="video/mp4">
+                </video>
+                <div class="card-text">
+                  <h5>Blessings🫶</h5>
+                </div>
+              </div>
+          
+            </div>
+
+          </div>
+         
+      </div>
+    </div><!----page3---->
+
+    <script src="script.js"></script>
+</body>
+</html>
