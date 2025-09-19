@@ -435,16 +435,15 @@ audio {
   transform-origin: center;
   display: inline-block;
   text-align: center;
-
+  margin-top:10px;
 }
 
 .page3overlay{
   width: 65%;
   /* background-color: #ff70db26; */
-  margin: 0 auto;
+  margin: 10px auto;
   padding: 12px 50px;
   border-radius: 5px;
-  margin-top: -30px;;
 }
 
 .page3overlay>p{
@@ -591,6 +590,7 @@ video{
   }
 
 }
+
 
 
 
