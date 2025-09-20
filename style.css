@@ -5,6 +5,7 @@
       height: 100vh;
       overflow: hidden;
       box-sizing: border-box;
+     scroll-behavior:smooth;
     }
 
     .heart {
@@ -588,6 +589,7 @@ video{
   }
 
 }
+
 
 
 
